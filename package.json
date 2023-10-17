@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "postinstall": "nuxi prepare"
+  },
+  "devDependencies": {
+    "date-fns": "^2.30.0",
+    "nuxt": "npm:nuxt-nightly@latest",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  }
+}
